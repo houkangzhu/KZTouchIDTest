@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682592141CBF9BF800376912 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 682592131CBF9BF800376912 /* UIImage+ImageEffects.m */; };
+		682592171CBF9C6200376912 /* KZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 682592161CBF9C6200376912 /* KZUtil.m */; };
+		6835B85B1CBF9938002A4746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6835B85A1CBF9938002A4746 /* main.m */; };
+		6835B85E1CBF9938002A4746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6835B85D1CBF9938002A4746 /* AppDelegate.m */; };
+		6835B8611CBF9938002A4746 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6835B8601CBF9938002A4746 /* ViewController.m */; };
+		6835B8641CBF9938002A4746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6835B8621CBF9938002A4746 /* Main.storyboard */; };
+		6835B8661CBF9938002A4746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6835B8651CBF9938002A4746 /* Assets.xcassets */; };
+		6835B8691CBF9938002A4746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6835B8671CBF9938002A4746 /* LaunchScreen.storyboard */; };
+		6835B8711CBF99F9002A4746 /* meinv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6835B8701CBF99F9002A4746 /* meinv.jpg */; };
+		6835B8781CBF9AED002A4746 /* KZTouchIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6835B8771CBF9AED002A4746 /* KZTouchIDTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		682592121CBF9BF800376912 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		682592131CBF9BF800376912 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		682592151CBF9C6200376912 /* KZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUtil.h; sourceTree = "<group>"; };
+		682592161CBF9C6200376912 /* KZUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUtil.m; sourceTree = "<group>"; };
+		6835B8561CBF9938002A4746 /* KZTouchIDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZTouchIDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6835B85A1CBF9938002A4746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6835B85C1CBF9938002A4746 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6835B85D1CBF9938002A4746 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6835B85F1CBF9938002A4746 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6835B8601CBF9938002A4746 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6835B8631CBF9938002A4746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6835B8651CBF9938002A4746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6835B8681CBF9938002A4746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6835B86A1CBF9938002A4746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6835B8701CBF99F9002A4746 /* meinv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meinv.jpg; sourceTree = "<group>"; };
+		6835B8761CBF9AED002A4746 /* KZTouchIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZTouchIDTool.h; sourceTree = "<group>"; };
+		6835B8771CBF9AED002A4746 /* KZTouchIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZTouchIDTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6835B8531CBF9938002A4746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682592111CBF9BF800376912 /* ImageEffect */ = {
+			isa = PBXGroup;
+			children = (
+				682592121CBF9BF800376912 /* UIImage+ImageEffects.h */,
+				682592131CBF9BF800376912 /* UIImage+ImageEffects.m */,
+			);
+			path = ImageEffect;
+			sourceTree = "<group>";
+		};
+		6835B84D1CBF9938002A4746 = {
+			isa = PBXGroup;
+			children = (
+				6835B8581CBF9938002A4746 /* KZTouchIDTest */,
+				6835B8571CBF9938002A4746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6835B8571CBF9938002A4746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6835B8561CBF9938002A4746 /* KZTouchIDTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6835B8581CBF9938002A4746 /* KZTouchIDTest */ = {
+			isa = PBXGroup;
+			children = (
+				6835B8751CBF9AED002A4746 /* Classes */,
+				6835B8701CBF99F9002A4746 /* meinv.jpg */,
+				6835B85C1CBF9938002A4746 /* AppDelegate.h */,
+				6835B85D1CBF9938002A4746 /* AppDelegate.m */,
+				6835B85F1CBF9938002A4746 /* ViewController.h */,
+				6835B8601CBF9938002A4746 /* ViewController.m */,
+				6835B8621CBF9938002A4746 /* Main.storyboard */,
+				6835B8651CBF9938002A4746 /* Assets.xcassets */,
+				6835B8671CBF9938002A4746 /* LaunchScreen.storyboard */,
+				6835B86A1CBF9938002A4746 /* Info.plist */,
+				6835B8591CBF9938002A4746 /* Supporting Files */,
+			);
+			path = KZTouchIDTest;
+			sourceTree = "<group>";
+		};
+		6835B8591CBF9938002A4746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6835B85A1CBF9938002A4746 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6835B8751CBF9AED002A4746 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				682592111CBF9BF800376912 /* ImageEffect */,
+				6835B8761CBF9AED002A4746 /* KZTouchIDTool.h */,
+				6835B8771CBF9AED002A4746 /* KZTouchIDTool.m */,
+				682592151CBF9C6200376912 /* KZUtil.h */,
+				682592161CBF9C6200376912 /* KZUtil.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6835B8551CBF9938002A4746 /* KZTouchIDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6835B86D1CBF9938002A4746 /* Build configuration list for PBXNativeTarget "KZTouchIDTest" */;
+			buildPhases = (
+				6835B8521CBF9938002A4746 /* Sources */,
+				6835B8531CBF9938002A4746 /* Frameworks */,
+				6835B8541CBF9938002A4746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZTouchIDTest;
+			productName = KZTouchIDTest;
+			productReference = 6835B8561CBF9938002A4746 /* KZTouchIDTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6835B84E1CBF9938002A4746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯康柱";
+				TargetAttributes = {
+					6835B8551CBF9938002A4746 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6835B8511CBF9938002A4746 /* Build configuration list for PBXProject "KZTouchIDTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6835B84D1CBF9938002A4746;
+			productRefGroup = 6835B8571CBF9938002A4746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6835B8551CBF9938002A4746 /* KZTouchIDTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6835B8541CBF9938002A4746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6835B8691CBF9938002A4746 /* LaunchScreen.storyboard in Resources */,
+				6835B8661CBF9938002A4746 /* Assets.xcassets in Resources */,
+				6835B8641CBF9938002A4746 /* Main.storyboard in Resources */,
+				6835B8711CBF99F9002A4746 /* meinv.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6835B8521CBF9938002A4746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6835B8611CBF9938002A4746 /* ViewController.m in Sources */,
+				682592141CBF9BF800376912 /* UIImage+ImageEffects.m in Sources */,
+				682592171CBF9C6200376912 /* KZUtil.m in Sources */,
+				6835B8781CBF9AED002A4746 /* KZTouchIDTool.m in Sources */,
+				6835B85E1CBF9938002A4746 /* AppDelegate.m in Sources */,
+				6835B85B1CBF9938002A4746 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6835B8621CBF9938002A4746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6835B8631CBF9938002A4746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6835B8671CBF9938002A4746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6835B8681CBF9938002A4746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6835B86B1CBF9938002A4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6835B86C1CBF9938002A4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6835B86E1CBF9938002A4746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZTouchIDTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houkangzhu.KZTouchIDTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6835B86F1CBF9938002A4746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZTouchIDTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houkangzhu.KZTouchIDTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6835B8511CBF9938002A4746 /* Build configuration list for PBXProject "KZTouchIDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6835B86B1CBF9938002A4746 /* Debug */,
+				6835B86C1CBF9938002A4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6835B86D1CBF9938002A4746 /* Build configuration list for PBXNativeTarget "KZTouchIDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6835B86E1CBF9938002A4746 /* Debug */,
+				6835B86F1CBF9938002A4746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6835B84E1CBF9938002A4746 /* Project object */;
+}
